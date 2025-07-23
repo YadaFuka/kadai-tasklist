@@ -12,6 +12,13 @@
             @method('PUT')
 
                 <div class="my-4">
+                    <label for="status" class="label">
+                        <span class="label-text">タイトル:</span>
+                    </label>
+                    <input type="status" name="title" value="{{ $task->status }}" class="input input-bordered w-full">
+                </div>
+
+                <div class="my-4">
                     <label for="content" class="label">
                         <span class="label-text">タスク:</span>
                     </label>
